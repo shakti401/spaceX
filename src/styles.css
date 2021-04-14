@@ -1,1 +1,47 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/dist/css/bootstrap.css';
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #000;
+    background-color: #66c317;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0.25rem;
+    color: #000;
+    background-color: #aed384d4;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    padding-top: 0px;
+}
+
+.card-body p {
+    margin-bottom: 3px;
+}
+
+.card img {
+    background: #f8f9fa
+}
+
+.card-body p span,
+ul>li,
+.card-body h5 {
+    color: #064c83;
+}
+
+@media (max-width: 574px) {
+    .col-md-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 460px) {
+    .col-md-4 {
+        flex: 0 0 80%;
+        max-width: 80%;
+    }
+}
